@@ -16,6 +16,10 @@ body {
   // padding-bottom: 50px;
 }
 
+// .display {
+//   display: inline-block;
+// }
+
 .temperature p {
     display: block;
     margin-left: auto;
@@ -27,6 +31,11 @@ body {
     line-height: 84px;
     text-align: center;
 }
+
+.desc {
+  display:block;
+  height: 10px
+};
 
 .wwlogo {
   display: block;
