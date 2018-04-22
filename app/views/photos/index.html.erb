@@ -7,7 +7,7 @@
 <div class="top_half">
 
   <div class="logo">
-    <a href="#logo"> <img class="wwlogo" src="/assets/ww_logo.png" alt=""> </a>
+    <span href="#logo"> <img class="wwlogo" src="/assets/ww_logo.png" alt=""> </span>
   </div>
 
 
@@ -15,50 +15,88 @@
     <p>MIAMI, FL</p>
   </div>
 
-  <div class="temperature">
-    <p> <%= @cur_temp%>°</p>s
+  <div class="display">
+    <div class="temperature"><p>
+      <% if @cur_desc = "rain" || @cur_desc = "shower rain" || @cur_desc = "thunderstorm" || @cur_desc= "snow" || @cur_desc = "mist" %>
+      <%= image_tag("Rainy_Icon_white@4x-8.png", size: "110x110") %>
+      <% elsif @cur_desc = "clear sky" || @cur_desc = "broken clouds" %>
+      <%= image_tag("Sunny_icon_white@4x-8.png", size: "110x110") %>
+      <% elsif @cur_desc = "scattered clouds" || @cur_desc = "few clouds" %>
+      <%= image_tag("Cloudy_Icon2_white@4x-8.png") %>
+      <% end %>
+      <%= @cur_temp%>° </p></div>
   </div>
 
 </div>
 
 
-<!-- carousel -->
+<!-- carousel Men -->
+<div class="Men active" id="mens">
   <% if @cur_temp <= 45 %>
   <div class="carousel cold">
-    <a class="carousel-item" href="#one!"> <%= image_tag("cold_clothes.jpg") %> </a>
-    <a class="carousel-item" href="#two!"> <%= image_tag("cold_clothes2.jpg") %> </a>
-    <a class="carousel-item" href="#three!"> <%= image_tag("cold_clothes3.jpg") %> </a>
+    <span class="carousel-item" href="#one!"> <%= image_tag("cold_clothes.jpg") %> </span>
+    <span class="carousel-item" href="#two!"> <%= image_tag("cold_clothes2.jpg") %> </span>
+    <span class="carousel-item" href="#three!"> <%= image_tag("cold_clothes3.jpg") %> </span>
   </div>
   <% elsif @cur_temp > 45 && @cur_temp <= 65 %>
   <div class="carousel chilly">
-    <a class="carousel-item" href="#one!"> <%= image_tag("chilly_clothes.jpg") %> </a>
-    <a class="carousel-item" href="#two!"> <%= image_tag("chilly_clothes2.jpg") %> </a>
-    <a class="carousel-item" href="#three!"> <%= image_tag("chilly_clothes3.jpg") %> </a>
+    <span class="carousel-item" href="#one!"> <%= image_tag("chilly_clothes.jpg") %> </span>
+    <span class="carousel-item" href="#two!"> <%= image_tag("chilly_clothes2.jpg") %> </span>
+    <span class="carousel-item" href="#three!"> <%= image_tag("chilly_clothes3.jpg") %> </span>
   </div>
   <% elsif @cur_temp > 65 && @cur_temp <= 80 %>
   <div class="carousel warm">
-    <a class="carousel-item" href="#one!"> <%= image_tag("warm_clothes.jpg") %> </a>
-    <a class="carousel-item" href="#two!"> <%= image_tag("warm_clothes2.jpg") %> </a>
-    <a class="carousel-item" href="#three!"> <%= image_tag("warm_clothes3.jpg") %> </a>
+    <span class="carousel-item" href="#one!"> <%= image_tag("warm_clothes.jpg") %> </span>
+    <span class="carousel-item" href="#two!"> <%= image_tag("warm_clothes2.jpg") %> </span>
+    <span class="carousel-item" href="#three!"> <%= image_tag("warm_clothes3.jpg") %> </span>
   </div>
   <% else %>
   <div class="carousel hot">
-    <a class="carousel-item" href="#one!"> <%= image_tag("Sunny_Clothes.jpg")  %> </a>
-    <a class="carousel-item" href="#two!"> <%= image_tag("Sunny_clothes2.jpg") %>  </a>
-    <a class="carousel-item" href="#three!"> <%= image_tag("Sunny_clothes3.jpg") %> </a>
+    <span class="carousel-item" href="#one!"> <%= image_tag("Sunny_Clothes.jpg")  %> </span>
+    <span class="carousel-item" href="#two!"> <%= image_tag("Sunny_clothes2.jpg") %>  </span>
+    <span class="carousel-item" href="#three!"> <%= image_tag("Sunny_clothes3.jpg") %> </span>
   </div>
   <% end %>
+</div>
 
 
 
+<!-- carousel Women -->
+<div class="Women" id="womans">
+  <% if @cur_temp <= 45 %>
+  <div class="carousel cold">
+    <span class="carousel-item" href="#one!"> <%= image_tag("w_cold_1.jpg") %> </span>
+    <span class="carousel-item" href="#two!"> <%= image_tag("w_cold_2.jpg") %> </span>
+    <span class="carousel-item" href="#three!"> <%= image_tag("w_cold_3.jpg") %> </span>
+  </div>
+  <% elsif @cur_temp > 45 && @cur_temp <= 65 %>
+  <div class="carousel chilly">
+    <span class="carousel-item" href="#one!"> <%= image_tag("w_chilly_1.jpg") %> </span>
+    <span class="carousel-item" href="#two!"> <%= image_tag("w_chilly_2.jpg") %> </span>
+    <span class="carousel-item" href="#three!"> <%= image_tag("w_chilly_3.jpg") %> </span>
+  </div>
+  <% elsif @cur_temp > 65 && @cur_temp <= 80 %>
+  <div class="carousel warm">
+    <span class="carousel-item" href="#one!"> <%= image_tag("w_warm_3.jpg") %> </span>
+    <span class="carousel-item" href="#two!"> <%= image_tag("w_warm_2.jpg") %> </span>
+    <span class="carousel-item" href="#three!"> <%= image_tag("w_warm_1.jpeg") %> </span>
+  </div>
+  <% else %>
+  <div class="carousel hot">
+    <span class="carousel-item" href="#one!"> <%= image_tag("w_hot_1.jpg")  %> </span>
+    <span class="carousel-item" href="#two!"> <%= image_tag("w_hot_2.jpg") %>  </span>
+    <span class="carousel-item" href="#three!"> <%= image_tag("w_hot_3.jpg") %> </span>
+  </div>
+  <% end %>
+</div>
 
-  <div class="row">
-    <div class="col s12">
+
+<!-- Tab bar -->
+  <div class="row footer no-margin">
+    <div class="col s12 no-padding">
       <ul class="tabs">
-        <li class="tab col s3"><a href="#test1">M</a></li>
-        <li class="tab col s3"><a class="active" href="#test2">W</a></li>
+        <li class="tab col s3"><a href="#mens" class="active">M</a></li>
+        <li class="tab col s3"><a href="#womans">W</a></li>
       </ul>
     </div>
-    <div id="test1" class="col s12">Test 1</div>
-    <div id="test2" class="col s12">Test 2</div>
   </div>
