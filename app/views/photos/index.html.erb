@@ -14,8 +14,16 @@
     <p>MIAMI, FL</p>
   </div>
 
-  <div class="temperature">
-    <p> <%= @cur_temp%>°</p>s
+  <div class="display">
+    <div class="temperature"><p>
+      <% if @cur_desc = "rain" || @cur_desc = "shower rain" || @cur_desc = "thunderstorm" || @cur_desc= "snow" || @cur_desc = "mist" %>
+      <%= image_tag("Rainy_Icon_white@4x-8.png", size: "110x110") %>
+      <% elsif @cur_desc = "clear sky" || @cur_desc = "broken clouds" %>
+      <%= image_tag("Sunny_icon_white@4x-8.png", size: "110x110") %>
+      <% elsif @cur_desc = "scattered clouds" || @cur_desc = "few clouds" %>
+      <%= image_tag("Cloudy_Icon2_white@4x-8.png") %>
+      <% end %>
+      <%= @cur_temp%>° </p></div>
   </div>
 
 </div>
