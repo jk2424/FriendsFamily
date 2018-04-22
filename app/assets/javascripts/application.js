@@ -23,4 +23,13 @@ $(document).on('turbolinks:load', function(){
 
     $('.carousel').carousel();
     $('.tabs').tabs();
+
+    $(".M").click(function(){
+    $(".Women").hide();
+    $(".Men").show();
+    });
+    $(".W").click(function(){
+    $(".Women").show();
+    $(".Men").hide();
+    });
 });
