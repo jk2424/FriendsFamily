@@ -4,22 +4,75 @@
 
 
 body {
-  	background-image: url("Miami-City-Page.jpg");
+
     background-repeat: no-repeat;
     background-size: 1750px, 719px;
     overflow: hidden;
+<<<<<<< HEAD
+=======
+
 }
 
+.few_clouds {
+  background-image: url("day_cloudy_3.jpg");
+
+>>>>>>> 87dbd0761dad126eaf5b4b3b1e5ad202c4206cfe
+}
+
+.scattered_clouds {
+  background-image: url("day_cloudy_3.jpg");
+
+}
+
+.broken_clouds {
+  background-image: url("Miami-City-Page.jpg");
+
+}
+
+.clear_sky {
+    background-image: url("Miami-City-Page.jpg");
+
+}
+
+.snow {
+  background-image: url("day_thunderstorm_1.jpg");
+
+}
+
+.mist {
+  background-image: url("day_thunderstorm_1.jpg");
+
+}
+
+.shower_rain {
+  background-image: url("day_thunderstorm_1.jpg");
+
+}
+
+.rain {
+  background-image: url("day_thunderstorm_1.jpg");
+
+}
+
+.thunderstorm {
+  background-image: url("day_thunderstorm_1.jpg");
+
+}
+
+.sunny {
+  background-image: url("Miami-City-Page.jpg");
 
 
+}
+
+//to add room for iphone X camera
 .top_half {
   padding-top: 100px;
-  // padding-bottom: 50px;
 }
 
-// .display {
-//   display: inline-block;
-// }
+
+
+//temperature
 
 .temperature p {
     display: block;
@@ -33,10 +86,14 @@ body {
     text-align: center;
 }
 
+//weather description
+
 .desc {
   display:block;
   height: 10px
 };
+
+//logo
 
 .wwlogo {
   display: block;
@@ -48,6 +105,8 @@ body {
   width: 150px;
 
 }
+
+//city
 
 .location p {
     display: block;
@@ -61,6 +120,7 @@ body {
     text-align: center;
 }
 
+//weather conditions
 .w_description p {
   display: block;
   margin-left: auto;
@@ -73,28 +133,8 @@ body {
   text-align: center;
 }
 
-// #background {
-//     background-repeat: no-repeat;
-//     background-size: 1750px, 719px;
-//     position: absolute;
-//     left: 0;
-//     top: 0;
-//     z-index: -1;
-//     transition: all .6s;
-// }
 
-// #background img {
-//   position: absolute;
-//   left: 0;
-//   top: 0;
-//   // height: 100vh;
-//   // width: 100vw;
-//   height: 100vh;
-//   filter: blur(5px);
-//   // background-attachment: fixed;
-// }
-
-// carousel
+//carousel
 .carousel {
   height: 1450px!important;
   bottom: 350px;
