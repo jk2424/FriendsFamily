@@ -1,0 +1,107 @@
+// Place all the styles related to the photos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+  	background-image: url("Miami-City-Page.jpg");
+    background-repeat: no-repeat;
+    background-size: 1750px, 719px;
+}
+
+.top_half {
+  padding-top: 100px;
+  // padding-bottom: 50px;
+}
+
+.temperature p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: #FFF;
+    font-family: "Lucida Grande";
+    font-size: 150px;
+    line-height: 84px;
+    text-align: center;
+}
+
+.wwlogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  top: 10px;
+  height: 150px;
+  width: 150px;
+
+}
+
+.location p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: #FFF;
+    font-family: 'Lora', serif;
+    font-size: 100px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.w_description p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: #FFF;
+  font-family: 'Lora', serif;
+  font-size: 80px;
+  line-height: 48px;
+  text-align: center;
+}
+
+// #background {
+//     background-repeat: no-repeat;
+//     background-size: 1750px, 719px;
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     z-index: -1;
+//     transition: all .6s;
+// }
+
+// #background img {
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   // height: 100vh;
+//   // width: 100vw;
+//   height: 100vh;
+//   filter: blur(5px);
+//   // background-attachment: fixed;
+// }
+
+
+.carousel {
+  height: 1450px!important;
+  bottom: 350px;
+
+}
+
+
+.carousel-item {
+  height: 750px!important;
+  width: 750px!important;
+  box-shadow: 2px 4px 14px 0 rgba(0,0,0,0.5);
+}
+
+
+
+// Tab bar
+.row {
+  position: absolute;
+  width: 770px;
+  left: 104px;
+  bottom: 100px;
+}
