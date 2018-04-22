@@ -84,7 +84,7 @@ body {
 //   // background-attachment: fixed;
 // }
 
-
+// carousel
 .carousel {
   height: 1450px!important;
   bottom: 350px;
@@ -95,15 +95,38 @@ body {
 .carousel-item {
   height: 750px!important;
   width: 750px!important;
-  box-shadow: 2px 4px 14px 0 rgba(0,0,0,0.5);
+  // box-shadow: 2px 4px 14px 0 rgba(0,0,0,0.5);
+}
+
+.carousel img {
+    border-radius: 50px !important;
+    box-shadow: 2px 4px 14px 0 rgba(0,0,0,0.5);
 }
 
 
-
 // Tab bar
-.row {
+.footer {
   position: absolute;
-  width: 770px;
-  left: 104px;
-  bottom: 100px;
+  // width: 770px;
+  width: 100%;
+  // left: 104px;
+  bottom: -2px;
+  margin: 0px !important;
+ .tabs, .tab {
+   height: 100px !important;
+   a.active{
+     color: white !important;
+     background-color: #568ea3 !important;
+     opacity: 0.5;
+   }
+   a, .active{
+     padding: 27px !important;
+     font-size: 30px !important;
+     color: #568ea3 !important;
+   }
+ }
+}
+
+.tabs .indicator {
+  background-color: #568ea3 !important;
 }
