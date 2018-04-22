@@ -7,6 +7,7 @@ body {
   	background-image: url("Miami-City-Page.jpg");
     background-repeat: no-repeat;
     background-size: 1750px, 719px;
+    overflow: hidden;
 }
 
 
@@ -135,6 +136,11 @@ body {
    }
  }
 }
+
+
+
+
+
 
 .tabs .indicator {
   background-color: #568ea3 !important;
