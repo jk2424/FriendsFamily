@@ -19,7 +19,11 @@
 //= require jquery_ujs
 //= require loading_screen
 
+
+// photo gallery
+
 $(document).on('turbolinks:load', function(){
+
 
     $('.carousel').carousel();
     $(".tabs").tabs();
@@ -28,5 +32,16 @@ $(document).on('turbolinks:load', function(){
       $('.carousel').carousel();
     })
 
+
+});
+
+// loading
+function showProgress() {
+  $('.your_content').hide();
+  $('#loading-indicator');
+}
+
+$(document).ready(function () {
+  $('#loading-indicator').hide(0);        //hide gif on page load
 
 });
