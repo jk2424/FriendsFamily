@@ -4,11 +4,11 @@
 <!-- Background image-->
 
 <% if @cur_desc = "rain" || @cur_desc = "shower rain" || @cur_desc = "thunderstorm" || @cur_desc= "snow" || @cur_desc = "mist" %>
-<div class="rain">
-  <% elsif @cur_desc = "clear sky" || @cur_desc = "broken clouds" %>
-  <div class="broken_clouds">
+<div class="rainy">
+  <% elsif @cur_desc = "clear sky" || @cur_desc = "broken clouds" || @cur_desc = "sunny" %>
+  <div class="sunny">
     <% elsif @cur_desc = "scattered clouds" || @cur_desc = "few clouds" %>
-    <div class="scattered_clouds">
+    <div class="cloudy">
       <% end %>
 
 
