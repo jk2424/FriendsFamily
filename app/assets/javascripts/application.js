@@ -19,25 +19,8 @@
 //= require jquery_ujs
 //= require loading_screen
 
-function load(/photos) {
-    console.log("hello")
-    // display loading image here...
-    document.getElementById('loading.gif').visible = true;
-    // request your data...
-    var req = new XMLHttpRequest();
-    req.open("POST", url, true);
 
-    req.onreadystatechange = function () {
-        if (req.readyState == 4 && req.status == 200) {
-            // content is loaded...hide the gif and display the content...
-            if (req.responseText) {
-                document.getElementById('loading.gif').innerHTML = req.responseText;
-                document.getElementById('loading.gif').visible = false;
-            }
-        }
-    };
-    request.send(vars);
-}
+// photo gallery
 
 $(document).on('turbolinks:load', function(){
 
@@ -49,5 +32,16 @@ $(document).on('turbolinks:load', function(){
       $('.carousel').carousel();
     })
 
+
+});
+
+// loading
+function showProgress() {
+  $('.your_content').hide();
+  $('#loading-indicator');
+}
+
+$(document).ready(function () {
+  $('#loading-indicator').hide(0);        //hide gif on page load
 
 });

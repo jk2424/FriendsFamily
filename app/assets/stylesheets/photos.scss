@@ -8,15 +8,20 @@ body {
     background-repeat: no-repeat;
     background-size: 1750px, 719px;
     overflow: hidden;
-<<<<<<< HEAD
-=======
 
+
+}
+
+#loading-indicator {
+  position: absolute;
+  display:block;
+margin: 0 auto;
 }
 
 .few_clouds {
   background-image: url("day_cloudy_3.jpg");
 
->>>>>>> 87dbd0761dad126eaf5b4b3b1e5ad202c4206cfe
+
 }
 
 .scattered_clouds {
@@ -178,10 +183,8 @@ body {
 }
 
 
-
-
-
-
 .tabs .indicator {
   background-color: #568ea3 !important;
 }
+
+// loading
