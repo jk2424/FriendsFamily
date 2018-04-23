@@ -17,5 +17,9 @@ class PhotosController < ApplicationController
 
   end
 
+  def lookup
+
+  end
+
 
 end
