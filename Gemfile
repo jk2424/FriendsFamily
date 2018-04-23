@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
+gem 'zip-codes'
+
 gem 'loading_screen', '~> 0.2.3'
 
 gem 'pry'
