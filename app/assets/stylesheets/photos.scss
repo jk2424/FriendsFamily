@@ -35,7 +35,7 @@ body {
 }
 
 .sunny {
-  background-image: url("Miami_City-Page.jpg");
+  background-image: url("Miami-City-Page.jpg");
   background-repeat: no-repeat;
   background-size: 1750px, 719px;
 
@@ -47,6 +47,62 @@ body {
   padding-top: 100px;
 }
 
+.popup-inner {
+
+max-width:500px;
+width:70%;
+height:13%;
+padding:60px;
+position:absolute;
+top:20%;
+left:50%;
+-webkit-transform:translate(-50%, -50%);
+transform:translate(-50%, -50%);
+box-shadow:0px 2px 6px rgba(0,0,0,1);
+border-radius:3px;
+background:#fff;
+}
+/* Close Button */
+.popup-close {
+width:30px;
+height:30px;
+padding-top:4px;
+display:inline-block;
+position:absolute;
+top:0px;
+right:0px;
+transition:ease 0.25s all;
+-webkit-transform:translate(50%, -50%);
+transform:translate(50%, -50%);
+border-radius:1000px;
+background:rgba(0,0,0,0.8);
+font-family:Arial, Sans-Serif;
+font-size:20px;
+text-align:center;
+line-height:100%;
+color:#fff;
+}
+.popup-close:hover {
+-webkit-transform:translate(50%, -50%) rotate(180deg);
+transform:translate(50%, -50%) rotate(180deg);
+background:rgba(0,0,0,1);
+text-decoration:none;
+}
+
+#zip{
+ font-size: 40px;
+ // width: 40%;
+}
+
+.location p {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   color: #FFF;
+   font-family: 'Lora', serif;
+   text-align: center;
+   font-size: 11vw;
+}               
 
 
 //temperature
@@ -55,11 +111,9 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     color: #FFF;
     font-family: "Lucida Grande";
     font-size: 150px;
-    line-height: 84px;
     text-align: center;
 }
 
