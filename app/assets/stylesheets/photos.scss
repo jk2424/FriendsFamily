@@ -1,14 +1,67 @@
-// Place all the styles related to the photos controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// .popup {
+// width:100%;
+// height:100%;
+// display:none;
+// position:fixed;
+// top:0px;
+// left:0px;
+// background:rgba(0,0,0,0.75);
+// }
+/* Inner */
 
+
+.popup-inner {
+
+max-width:500px;
+width:70%;
+height:13%;
+padding:60px;
+position:absolute;
+top:20%;
+left:50%;
+-webkit-transform:translate(-50%, -50%);
+transform:translate(-50%, -50%);
+box-shadow:0px 2px 6px rgba(0,0,0,1);
+border-radius:3px;
+background:#fff;
+}
+/* Close Button */
+.popup-close {
+width:30px;
+height:30px;
+padding-top:4px;
+display:inline-block;
+position:absolute;
+top:0px;
+right:0px;
+transition:ease 0.25s all;
+-webkit-transform:translate(50%, -50%);
+transform:translate(50%, -50%);
+border-radius:1000px;
+background:rgba(0,0,0,0.8);
+font-family:Arial, Sans-Serif;
+font-size:20px;
+text-align:center;
+line-height:100%;
+color:#fff;
+}
+.popup-close:hover {
+-webkit-transform:translate(50%, -50%) rotate(180deg);
+transform:translate(50%, -50%) rotate(180deg);
+background:rgba(0,0,0,1);
+text-decoration:none;
+}
+
+#zip{
+  font-size: 40px;
+  // width: 40%;
+}
 
 body {
 
     background-repeat: no-repeat;
     background-size: 1750px, 719px;
     overflow: hidden;
-
 
 }
 
@@ -19,6 +72,7 @@ body {
 }
 
 
+//backgound image
 
 .cloudy {
   background-image: url("day_cloudy_3.jpg");
@@ -30,7 +84,7 @@ body {
 .rainy {
   background-image: url("day_thunderstorm_1.jpg");
   background-repeat: no-repeat;
-  background-size: 3600px, 719px;
+  background-size: 3700px, 719px;
 
 }
 
@@ -38,7 +92,6 @@ body {
   background-image: url("Miami-City-Page.jpg");
   background-repeat: no-repeat;
   background-size: 1750px, 719px;
-
 
 }
 
@@ -102,7 +155,7 @@ text-decoration:none;
    font-family: 'Lora', serif;
    text-align: center;
    font-size: 11vw;
-}               
+}
 
 
 //temperature
@@ -113,7 +166,8 @@ text-decoration:none;
     margin-right: auto;
     color: #FFF;
     font-family: "Lucida Grande";
-    font-size: 150px;
+    font-size: 140px;
+    line-height: 84px;
     text-align: center;
 }
 
@@ -143,12 +197,10 @@ text-decoration:none;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     color: #FFF;
     font-family: 'Lora', serif;
-    font-size: 100px;
-    line-height: 48px;
     text-align: center;
+    font-size: 11vw;
 }
 
 //weather conditions
@@ -212,5 +264,3 @@ text-decoration:none;
 .tabs .indicator {
   background-color: #568ea3 !important;
 }
-
-// loading
