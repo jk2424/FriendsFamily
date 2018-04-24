@@ -4,11 +4,11 @@
 <!-- Background image-->
 
 <% if @cur_desc = "rain" || @cur_desc = "shower rain" || @cur_desc = "thunderstorm" || @cur_desc= "snow" || @cur_desc = "mist" %>
-<div class="rain">
+<div class="rainy">
   <% elsif @cur_desc = "clear sky" || @cur_desc = "broken clouds" %>
-  <div class="broken_clouds">
+  <div class="sunny">
     <% elsif @cur_desc = "scattered clouds" || @cur_desc = "few clouds" %>
-    <div class="scattered_clouds">
+    <div class="cloudy">
       <% end %>
 
 
@@ -67,7 +67,7 @@
           <div class="carousel warm2">
             <span class="carousel-item" href="#one!"> <%= image_tag("rainy_warm_m1.jpg") %> </span>
             <span class="carousel-item" href="#two!"> <%= image_tag("rainy_warm_m2.jpg") %> </span>
-            <span class="carousel-item" href="#three!"> <%= image_tag("rainy_warm_m3.jpg") %> </span>
+            <span class="carousel-item" href="#three!"> <%= image_tag("men_rainy.jpg") %> </span>
           </div>
           <% elsif ((@cur_temp > 80) && (@cur_desc == "clear sky" || @cur_desc == "broken clouds" || @cur_desc == "scattered clouds" || @cur_desc == "few clouds")) %>
           <div class="carousel hot">
