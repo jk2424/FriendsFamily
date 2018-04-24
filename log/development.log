@@ -4018,3 +4018,1328 @@ Processing by PhotosController#index as HTML
 Completed 200 OK in 285ms (Views: 189.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 07:42:44 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (557.0ms)
+Completed 200 OK in 4255ms (Views: 743.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 07:43:43 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 147ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 07:43:47 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 171ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 07:44:56 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 149ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 07:45:24 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 159ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 07:46:11 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Zx8R3NoDx6A7eqQ+xlEbrgZ9SHNl76pbyqm2yjYmj/4gT9aSEHnRu7qnNzxy7F8pO9MGgCnUXYduWOaZKGCPSw==", "zip_code"=>"98027", "commit"=>"Save changes"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 236ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 07:49:44 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 314ms (Views: 221.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 07:51:25 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 129ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 07:52:32 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 124ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 07:53:18 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 268ms (Views: 138.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 07:55:29 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 178ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 07:58:38 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 507ms (Views: 285.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 07:59:52 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 150ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:14:13 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 714ms (Views: 167.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:14:35 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 261ms (Views: 152.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:14:48 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 257ms (Views: 166.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:17:05 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 177ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:17:14 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 145ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:18:24 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 150ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:21:48 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 135ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 08:21:58 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7Ym5fJQZhfpkur+5kpFJo3ayqkskpH6KTLiSB+yJiZmq2X4yXmOT4eVnLLsmLA0kSxzkuGifiVboScJU8s+JLA==", "zip_code"=>"", "commit"=>"Save changes"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/photos_controller.rb:7:in `index'
+
+Started POST "/__better_errors/a76e0f4aca6f59de/variables" for 127.0.0.1 at 2018-04-24 08:21:59 -0400
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 08:22:09 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7Ym5fJQZhfpkur+5kpFJo3ayqkskpH6KTLiSB+yJiZmq2X4yXmOT4eVnLLsmLA0kSxzkuGifiVboScJU8s+JLA==", "zip_code"=>"", "commit"=>"Save changes"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+
+NoMethodError - undefined method `[]' for nil:NilClass:
+  app/controllers/photos_controller.rb:7:in `index'
+
+Started POST "/__better_errors/98f3d1db6785ef23/variables" for 127.0.0.1 at 2018-04-24 08:22:09 -0400
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:22:12 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 132ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 08:22:22 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GbvC3+G6jYzu8addvPHQ1mHUryxf0p26vwyC43xtNv9e6wWRK8Cbl28sNF8ITJRRXHrh3xPpamYb/dKwYis2Sg==", "zip_code"=>"98027", "commit"=>"Save changes"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 170ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:24:04 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 244ms (Views: 150.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:24:49 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 125ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:26:37 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 424ms (Views: 147.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:26:55 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 236ms (Views: 140.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:27:10 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 236ms (Views: 136.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:28:20 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 231ms (Views: 138.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:28:33 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 146ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:29:42 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 145ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:29:55 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 151ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:30:04 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 156ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:30:28 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 163ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:30:58 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 168ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:31:12 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 128ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:31:21 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 19166ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:31:43 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 176ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:31:56 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:32:00 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (1049.3ms)
+  Rendered photos/index.html.erb within layouts/application (832.2ms)
+Completed 200 OK in 4520ms (Views: 1168.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1025ms (Views: 935.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:32:09 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (37.7ms)
+Completed 200 OK in 184ms (Views: 92.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:32:11 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 134ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:32:59 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 96ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected tIDENTIFIER, expecting ')'
+...ield_tag 'zip_code' placeholder "Type some text");@output_bu...
+...                    ^~~~~~~~~~~:
+  app/views/photos/index.html.erb:52:in `'
+
+Started POST "/__better_errors/02ed308216a1e3aa/variables" for 127.0.0.1 at 2018-04-24 08:33:00 -0400
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:33:45 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 104ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected tIDENTIFIER, expecting ')'
+...ield_tag 'zip_code' placeholder: "placeholder text");@output...
+...                    ^~~~~~~~~~~:
+  app/views/photos/index.html.erb:52:in `'
+
+Started POST "/__better_errors/0270307d524873a5/variables" for 127.0.0.1 at 2018-04-24 08:33:45 -0400
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:33:47 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected tIDENTIFIER, expecting ')'
+...ield_tag 'zip_code' placeholder: "placeholder text");@output...
+...                    ^~~~~~~~~~~:
+  app/views/photos/index.html.erb:52:in `'
+
+Started POST "/__better_errors/82b030e821a8ef50/variables" for 127.0.0.1 at 2018-04-24 08:33:47 -0400
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:33:56 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected tLABEL
+...buffer.append=( text_field_tag:'zip_code' placeholder: "plac...
+...                ^~~~~~~~~~~~~~~
+/Users/jkim/Desktop/FriendsFamily/app/views/photos/index.html.erb:52: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ield_tag:'zip_code' placeholder: "placeholder text");@output...
+...                    ^~~~~~~~~~~:
+  app/views/photos/index.html.erb:52:in `'
+
+Started POST "/__better_errors/f2bbf786e6e5e412/variables" for 127.0.0.1 at 2018-04-24 08:33:57 -0400
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:34:09 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 194ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:35:22 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 130ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:36:40 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 187ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 08:36:50 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 210ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 09:36:38 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cuKJJoWNHqb/jso3KIwAeHzEsnI+5Kqle6jSjFNc0+s1sk5oT/cIvX5TWTWcMUT/QWr8gXLfXXnfWYLfTRrTXg==", "zip"=>"98027"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 191ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:36:53 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PhotosController#index as HTML
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:36:54 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (343.4ms)
+  Rendered photos/index.html.erb within layouts/application (2379.7ms)
+Completed 200 OK in 6886ms (Views: 527.9ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 7746ms (Views: 2604.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 09:37:07 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GCybnznJcpb7V0ZWvAZzLJ13B4fUipoPbWuOuxrogzVffFzR87NkjXqK1VQIuzeroNlJdJixbdPJmt7oBK6DgA==", "zip"=>"98027"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 147ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:37:32 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (67.1ms)
+Completed 200 OK in 259ms (Views: 138.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 09:37:38 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RO8IoRethyVmrrbIYPa5ZHyx+AkEsM4pySr2otGAtukDv8/v3deRPudzJcrUS/3jQR+2+kiLOfVt26bxz8a2XA==", "zip"=>"98027"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 180ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:38:20 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 199ms (Views: 97.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 09:38:23 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aZBXIbEMXjZnzfspe/7APt5EtoDA32lENLZ6EbDIlyUuwJBve3ZILeYQaCvPQ4S54+r4c4zknpiQRypCro6XkA==", "zip"=>"98027"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 257ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 09:38:48 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x/yaB6uE7rMUMrz0fEJkw4vyXMXB88lrclhArB4uP+qArF1JYf74qJXvL/bI/yBEtlwSNo3IPrfWqRD/AGg/Xw==", "zip"=>"33184"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 161ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 09:39:01 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a5sGR61E7N4zEtdrUAzSLo6xM2fhl+mHd26/p1Fx9KEsy8EJZz76xbLPRGnksZapsx99lK2sHlvTn+/0Tzf0FA==", "zip"=>"11106"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 305ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 09:39:06 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y6/MqFbEGBjmeUgOsEmXE4NDWXQgeycnV/tRaSHUY5CM/wvmnL4OA2ek2wwE9NOUvu0Xh2xA0PvzCgE6P5JjJQ==", "zip"=>"11101"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 192ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:39:42 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 153ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:39:55 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 173ms (Views: 76.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 09:42:35 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8UZD2NYd0WQRd+gNwLvRI09sLao5BuUUF9ZbR1/plRm2FoSWHGfHf5Cqew90BpWkcsJjWXU9EsizJwsUQa+VrA==", "zip"=>"11101"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 159ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:45:37 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 586ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:47:13 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 835ms (Views: 225.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:48:37 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 266ms (Views: 145.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:53:07 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 628ms (Views: 133.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:53:26 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 256ms (Views: 89.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:54:28 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 164ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:54:54 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 480ms (Views: 159.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:56:10 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (791.9ms)
+Completed 200 OK in 4495ms (Views: 924.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 09:56:40 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"F7d6ZSJJqRSCH/syJIo0dNkl2t56yaJ3RnLdokzsnopQ570r6DO/DwPCaDCQN3Dz5IuULTbyVavig43xUqqePw==", "zip"=>"33131"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 152ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 09:56:46 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0Q9sqCF+hXdkW2/oPBOFKIxHjBkTrRT/QoIBJ0KSSiiWX6vm6wSTbOWG/OqIrsGvsenC6l+W4yPmc1F0XNRKnQ==", "zip"=>"11103"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 178ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:56:59 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (25.8ms)
+Completed 200 OK in 202ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 09:57:05 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/rw2Q1xhoGNMfY0OYEKFvHXG08mUaeb3Yqz/pc/fyGe57PENlhu2eM2gHgzU/8E7SGidOthSESvGXa/20ZnI0g==", "zip"=>"11103"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 181ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:59:02 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 251ms (Views: 93.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 09:59:09 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZyXeiXel+yZO7PTdi2MTG20kqdarB5E880whSe4uH0EgdRnHvd/tPc8xZ98/3lecUIrnJec8ZuBXvXEa8Ggf9A==", "zip_code"=>"11106"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 209ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:59:34 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 186ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 09:59:40 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"52IOEtwiTMi5C2jPe0xfNshk9JuHyzTtbTXaGM60mHWgMslcFlha0zjW+83P8Rux9cq6aMvwwzHJxIpL0PKYwA==", "zip_code"=>"11103"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 144ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 09:59:49 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 160ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:01:18 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (384.8ms)
+Completed 200 OK in 655ms (Views: 547.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:01:32 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 138ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:02:14 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 147ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:10:49 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 613ms (Views: 148.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:11:55 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 172ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 10:12:06 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gqgEhoVF8u8brpuR2RXLFNj7lON48edHZkzi+XtFJSHF+MPITz/k9JpzCJNtqI+T5VXaEDTKEJvCvbKqZQMllA==", "zip_code"=>"33131"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 140ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:14:14 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 272ms (Views: 176.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:14:30 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 289ms (Views: 188.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:14:45 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 287ms (Views: 183.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:15:47 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 284ms (Views: 189.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:15:57 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 261ms (Views: 158.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:18:03 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 235ms (Views: 133.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:18:14 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 297ms (Views: 188.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:18:25 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 228ms (Views: 131.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:19:10 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 267ms (Views: 164.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:19:49 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 471ms (Views: 292.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:20:11 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 147ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:20:32 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 171ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:21:07 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 151ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:21:23 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 151ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:22:09 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 255ms (Views: 136.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:22:43 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 292ms (Views: 157.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:22:57 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 157ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:24:46 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 110ms (ActiveRecord: 0.0ms)
+
+
+
+SyntaxError - syntax error, unexpected ':', expecting =>
+...laceholder: '33131', font-size: 20px );@output_buffer.safe_a...
+...                              ^:
+  app/views/photos/index.html.erb:54:in `'
+
+Started POST "/__better_errors/034b193dfbc3c402/variables" for 127.0.0.1 at 2018-04-24 10:24:47 -0400
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:27:30 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 674ms (Views: 160.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:28:13 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 235ms (Views: 140.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:28:23 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 250ms (Views: 139.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:28:28 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 156ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:29:39 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 144ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:30:16 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 331ms (Views: 132.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:30:26 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 247ms (Views: 129.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:30:30 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 204ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:30:36 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 135ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:30:38 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 173ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:30:45 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 245ms (Views: 150.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:30:50 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 155ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:31:01 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 192ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 10:31:22 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CVw/QtD9hKmXz14H1TVZ90BPlXH4qGyJf5Hdn/lQJB5ODPgMGoeSshYSzQVhiB1wfeHbgrSTm1XbYI3M5xYkqw==", "zip_code"=>"11106"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 185ms (Views: 59.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 10:31:52 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yXNjah2QXW+FlJf/2Q+xH36obEShIe1GaX0czd96u+GOI6Qk1+pLdARJBP1tsvWYQwYit+0aGprNjEyewTy7VA==", "zip_code"=>"98027"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 476ms (Views: 61.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-24 10:35:04 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (5.0ms)
+Completed 200 OK in 34ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 10:35:10 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 580ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 12:57:43 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (2954.1ms)
+Completed 200 OK in 6694ms (Views: 3206.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 12:58:00 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 187ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 12:58:02 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 187ms (Views: 68.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 12:58:03 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 279ms (Views: 116.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 12:58:07 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 182ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 12:58:20 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PhotosController#index as HTML
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 12:58:24 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (796.9ms)
+  Rendered photos/index.html.erb within layouts/application (643.9ms)
+Completed 200 OK in 4587ms (Views: 982.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1231ms (Views: 1046.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 12:58:33 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 274ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 12:58:50 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 143ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 12:58:57 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 151ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 12:59:18 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (643.2ms)
+Completed 200 OK in 4349ms (Views: 773.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 12:59:33 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 143ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 12:59:37 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 142ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 12:59:47 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 142ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:00:01 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 5719ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-24 13:00:16 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/templates/rails/welcome/index.html.erb (16.9ms)
+Completed 200 OK in 53ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:00:25 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 1063ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:00:38 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 134ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:00:41 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 189ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:00:57 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 128ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:01:24 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 381ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:02:18 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /usr/local/lib/ruby/gems/2.5.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (541.3ms)
+Completed 200 OK in 4219ms (Views: 685.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:03:03 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 178ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:03:26 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 171ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:03:32 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 333ms (Views: 92.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:04:20 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 154ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:04:37 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 160ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:04:39 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 155ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:04:58 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (35.6ms)
+Completed 200 OK in 238ms (Views: 125.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:05:26 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 174ms (Views: 75.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:05:54 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 139ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:06:06 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 204ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:06:18 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 149ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:07:09 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (27.4ms)
+Completed 200 OK in 239ms (Views: 112.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:08:14 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 222ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:09:10 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 1194ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:09:55 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 153ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:09:56 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 149ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:10:03 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 185ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:10:22 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 150ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 13:10:32 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EscTXc1/EnwzJhvyY1J2Af2z2xWUoqqWjIyf2Cw33k4QphFoweutZdHo4Utlj5JZfjGbR7ofGQfWYa5s8mlncA==", "zip_code"=>"11106"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 456ms (Views: 80.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:10:53 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 185ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:11:04 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 227ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:12:03 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 209ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:12:23 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 234ms (Views: 135.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:12:32 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 138ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:13:15 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 153ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:13:26 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 246ms (Views: 154.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/photos" for 127.0.0.1 at 2018-04-24 13:13:36 -0400
+Processing by PhotosController#index as HTML
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 146ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 13:14:01 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Frrupx6fdr1OlhjaNGf5glJJeOuYanuWDW2OnTF45JYU2+ySEgvJpKxY4mMyuh3a0cs4ubbXyAdXgL8p7yZdqA==", "zip_code"=>"33131"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 146ms (Views: 51.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 13:14:11 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nYbXIebcZhEWWqeTFR3YlQJ93Np11ve8k2rjvgjC+N2f59UU6kjZCPSUXSoTwDzNgf+ciFtrRC3Jh9IK1pxB4w==", "zip_code"=>"11106"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 312ms (Views: 108.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 13:14:20 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"corgqJt9qmk81EsuZ/+nshRXaabY/mr48wSg5MHx5QVw6+Kdl+kVcN4asZdhIkPql9Up9PZD2Wmp6ZFQH69cOw==", "zip_code"=>"11103"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 324ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 13:14:26 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8mm5cwJPfA/wQLcy4rMcY1Y/0/RFHuqHYzpWf7R6O7fwCLtGDtvDFhKOTYvkbvg71b2TpmujWRY512fLaiSCiQ==", "zip_code"=>"11106"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 172ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/photos" for 127.0.0.1 at 2018-04-24 13:14:30 -0400
+Processing by PhotosController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UU0D77hUMkOy1BOaIXK0lyT0HLbyT2+gTiw5iPHY8BFTLAHatMCNWlAa6SMnr1DPp3Zc5Nzy3DEUwQg8L4ZJLw==", "zip_code"=>"11101"}
+  Rendering photos/index.html.erb within layouts/application
+  Rendered photos/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 302ms (Views: 76.3ms | ActiveRecord: 0.0ms)
+
+
