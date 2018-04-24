@@ -17,7 +17,8 @@
 //= require_tree .
 //= require jquery
 //= require jquery_ujs
-//= require loading_screen
+//=require bootstrap-modal
+
 
 
 // photo gallery
@@ -35,13 +36,9 @@ $(document).on('turbolinks:load', function(){
 
 });
 
-// loading
-function showProgress() {
-  $('.your_content').hide();
-  $('#loading-indicator');
-}
 
-$(document).ready(function () {
-  $('#loading-indicator').hide(0);        //hide gif on page load
+$(document).on('click', '.location', function() {
+
+  $('.zipform').show();
 
 });

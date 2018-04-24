@@ -1,6 +1,4 @@
-// Place all the styles related to the photos controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
 
 
 body {
@@ -57,7 +55,7 @@ body {
     width: 50%;
     color: #FFF;
     font-family: "Lucida Grande";
-    font-size: 150px;
+    font-size: 140px;
     line-height: 84px;
     text-align: center;
 }
@@ -88,12 +86,10 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
     color: #FFF;
     font-family: 'Lora', serif;
-    font-size: 100px;
-    line-height: 48px;
     text-align: center;
+    font-size: 11vw;
 }
 
 //weather conditions
@@ -157,5 +153,3 @@ body {
 .tabs .indicator {
   background-color: #568ea3 !important;
 }
-
-// loading

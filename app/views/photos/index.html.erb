@@ -1,14 +1,23 @@
+<!-- Zip Form-->
+<div class = "zipform" style="display:none">
+<%= form_tag('/photos') do %>
+  <%= text_field_tag 'zip_code' %>
+  <%= submit_tag %>
+<% end %>
+</div>
 
 
 
 <!-- Background image-->
 
-<% if @cur_desc = "rain" || @cur_desc = "shower rain" || @cur_desc = "thunderstorm" || @cur_desc= "snow" || @cur_desc = "mist" %>
+<% if ((@cur_desc >= 200 && @cur_desc <= 622) || (@cur_desc >= 901)) %>
 <div class="rainy">
-  <% elsif @cur_desc = "clear sky" || @cur_desc = "broken clouds" || @cur_desc = "sunny" %>
+  <% elsif @cur_desc = 800 %>
   <div class="sunny">
-    <% elsif @cur_desc = "scattered clouds" || @cur_desc = "few clouds" %>
+    <% elsif @cur_desc >= 801 || @cur_desc <= 900 %>
     <div class="cloudy">
+      <% else  %>
+      <div class="sunny">
       <% end %>
 
 
@@ -21,21 +30,24 @@
 
 <!-- Location Label -->
         <div class="location">
-          <p>MIAMI, FL</p>
+          <p><%= image_tag("location-8.png", size: "60x90") %> <%= @city2  %></p>
         </div>
 
         <!-- Temperature and icon -->
 
+
         <div class="display">
           <div class="temperature"><p>
-            <% if @cur_desc = "rain" || @cur_desc = "shower rain" || @cur_desc = "thunderstorm" || @cur_desc= "snow" || @cur_desc = "mist" %>
+            <% if ((@cur_desc >= 200 && @cur_desc <= 622) || (@cur_desc >= 901))  %>
             <%= image_tag("Rainy_Icon_white@4x-8.png", size: "110x110") %>
-            <% elsif @cur_desc = "clear sky" || @cur_desc = "broken clouds" %>
+            <% elsif @cur_desc = 800 %>
             <%= image_tag("Sunny_icon_white@4x-8.png", size: "110x110") %>
-            <% elsif @cur_desc = "scattered clouds" || @cur_desc = "few clouds" %>
+            <% elsif @cur_desc >= 801 || @cur_desc <= 900 %>
             <%= image_tag("Cloudy_Icon2_white@4x-8.png") %>
+            <% else  %>
+            <%= image_tag("Sunny_icon_white@4x-8.png", size: "110x110") %>
             <% end %>
-            <%= @cur_temp%>°</p></div>
+            <%= @cur_temp%>° </p></div>
           </div>
 
         </div>
@@ -43,39 +55,37 @@
 
 <!-- Men's photo gallery -->
         <div class="Men active" id="mens">
-          <% if ((@cur_temp <= 45) && (@cur_desc == "clear sky" || @cur_desc == "broken clouds" || @cur_desc == "scattered clouds" || @cur_desc == "few clouds" || @cur_desc == "rain" || @cur_desc == "shower rain" ||
-            @cur_desc == "thunderstorm" || @cur_desc== "snow" || @cur_desc == "mist" ||@cur_desc == "clear sky" || @cur_desc == "broken clouds")) %>
+          <% if ((@cur_temp <= 45) && (@cur_desc > 0)) %>
           <div class="carousel cold">
             <span class="carousel-item" href="#one!"> <%= image_tag("cold_clothes.jpg") %> </span>
             <span class="carousel-item" href="#two!"> <%= image_tag("cold_clothes2.jpg") %> </span>
             <span class="carousel-item" href="#three!"> <%= image_tag("cold_clothes3.jpg") %> </span>
           </div>
-          <% elsif ((@cur_temp > 45 && @cur_temp <= 65) && (@cur_desc == "clear sky" || @cur_desc == "broken clouds" || @cur_desc == "scattered clouds" || @cur_desc == "few clouds" || @cur_desc == "rain" || @cur_desc == "shower rain" ||
-            @cur_desc == "thunderstorm" || @cur_desc== "snow" || @cur_desc == "mist" ||@cur_desc == "clear sky" || @cur_desc == "broken clouds"))%>
+          <% elsif ((@cur_temp > 45 && @cur_temp <= 65) && (@cur_desc > 0))%>
           <div class="carousel chilly">
             <span class="carousel-item" href="#one!"> <%= image_tag("chilly_clothes.jpg") %> </span>
             <span class="carousel-item" href="#two!"> <%= image_tag("chilly_clothes2.jpg") %> </span>
             <span class="carousel-item" href="#three!"> <%= image_tag("chilly_clothes3.jpg") %> </span>
           </div>
-          <% elsif (( @cur_desc == "clear sky" || @cur_desc == "broken clouds" || @cur_desc == "scattered clouds" || @cur_desc == "few clouds") && (@cur_temp > 65 && @cur_temp <= 80)) %>
+          <% elsif (((@cur_desc > 700 && @cur_desc <= 804) || (@cur_desc > 902)) && (@cur_temp > 65 && @cur_temp <= 80)) %>
           <div class="carousel warm">
             <span class="carousel-item" href="#one!"> <%= image_tag("warm_clothes.jpg") %> </span>
             <span class="carousel-item" href="#two!"> <%= image_tag("warm_clothes2.jpg") %> </span>
             <span class="carousel-item" href="#three!"> <%= image_tag("warm_clothes3.jpg") %> </span>
           </div>
-          <% elsif ((@cur_desc == "rain" || @cur_desc == "shower rain" || @cur_desc == "thunderstorm" || @cur_desc== "snow" || @cur_desc == "mist") && (@cur_temp > 65 && @cur_temp <= 80))   %>
+          <% elsif (((@cur_desc >= 200 && @cur_desc <= 622) || (@cur_desc >= 900 && @cur_desc <= 902)) && (@cur_temp > 65 && @cur_temp <= 80))   %>
           <div class="carousel warm2">
             <span class="carousel-item" href="#one!"> <%= image_tag("rainy_warm_m1.jpg") %> </span>
             <span class="carousel-item" href="#two!"> <%= image_tag("rainy_warm_m2.jpg") %> </span>
             <span class="carousel-item" href="#three!"> <%= image_tag("rainy_warm_m3.jpg") %> </span>
           </div>
-          <% elsif ((@cur_temp > 80) && (@cur_desc == "clear sky" || @cur_desc == "broken clouds" || @cur_desc == "scattered clouds" || @cur_desc == "few clouds")) %>
+          <% elsif (((@cur_desc > 700 && @cur_desc <= 804) || (@cur_desc > 902)) && (@cur_temp > 65 && @cur_temp <= 80)) %>
           <div class="carousel hot">
             <span class="carousel-item" href="#one!"> <%= image_tag("Sunny_Clothes.jpg")  %> </span>
             <span class="carousel-item" href="#two!"> <%= image_tag("Sunny_clothes2.jpg") %>  </span>
             <span class="carousel-item" href="#three!"> <%= image_tag("Sunny_clothes3.jpg") %> </span>
           </div>
-          <% elsif ((@cur_temp > 80) && (@cur_desc == "rain" || @cur_desc == "shower rain" || @cur_desc == "thunderstorm" || @cur_desc== "snow" || @cur_desc == "mist")) %>
+          <% elsif (((@cur_desc >= 200 && @cur_desc <= 622) || (@cur_desc >= 900 && @cur_desc <= 902)) && (@cur_temp > 65 && @cur_temp <= 80))   %>
           <div class="carousel hot2">
             <span class="carousel-item" href="#one!"> <%= image_tag("rainy_hot_m1.jpg")  %> </span>
             <span class="carousel-item" href="#two!"> <%= image_tag("rainy_hot_m2.jpg") %>  </span>
@@ -88,41 +98,37 @@
 
         <!-- carousel Women -->
         <div class="Women" id="womans">
-          <% if ((@cur_temp <= 45) && (@cur_desc == "clear sky" || @cur_desc == "broken clouds" || @cur_desc == "scattered clouds" || @cur_desc == "few clouds" || @cur_desc == "rain" || @cur_desc == "shower rain" ||
-            @cur_desc == "thunderstorm" || @cur_desc== "snow" || @cur_desc == "mist" ||@cur_desc == "clear sky" || @cur_desc == "broken clouds")) %>
+          <% if ((@cur_temp <= 45) && (@cur_desc > 0)) %>
           <div class="carousel cold">
             <span class="carousel-item" href="#one!"> <%= image_tag("w_cold_1.jpg") %> </span>
             <span class="carousel-item" href="#two!"> <%= image_tag("w_cold_2.jpg") %> </span>
             <span class="carousel-item" href="#three!"> <%= image_tag("w_cold_3.jpg") %> </span>
           </div>
-          <% elsif ((@cur_temp > 45 && @cur_temp <= 65) && (@cur_desc == "clear sky" || @cur_desc == "broken clouds" || @cur_desc == "scattered clouds" || @cur_desc == "few clouds" || @cur_desc == "rain" || @cur_desc == "shower rain" ||
-            @cur_desc == "thunderstorm" || @cur_desc== "snow" || @cur_desc == "mist" ||@cur_desc == "clear sky" || @cur_desc == "broken clouds"))%>
+          <% elsif ((@cur_temp > 45 && @cur_temp <= 65) && (@cur_desc > 0))%>
           <div class="carousel chilly">
             <span class="carousel-item" href="#one!"> <%= image_tag("w_chilly_1.jpg") %> </span>
             <span class="carousel-item" href="#two!"> <%= image_tag("w_chilly_2.jpg") %> </span>
             <span class="carousel-item" href="#three!"> <%= image_tag("w_chilly_3.jpg") %> </span>
           </div>
-          <% elsif (( @cur_desc == "clear sky" || @cur_desc == "broken clouds" || @cur_desc == "scattered clouds" || @cur_desc == "few clouds") && (@cur_temp > 65 && @cur_temp <= 80)) %>
+          <% elsif (((@cur_desc > 700 && @cur_desc <= 804) || (@cur_desc > 902)) && (@cur_temp > 65 && @cur_temp <= 80)) %>
           <div class="carousel warm">
             <span class="carousel-item" href="#one!"> <%= image_tag("w_warm_3.jpg") %> </span>
             <span class="carousel-item" href="#two!"> <%= image_tag("w_warm_2.jpg") %> </span>
             <span class="carousel-item" href="#three!"> <%= image_tag("w_warm_1.jpeg") %> </span>
           </div>
-          <% elsif ((@cur_desc == "rain" || @cur_desc == "shower rain" || @cur_desc == "thunderstorm" || @cur_desc== "snow" || @cur_desc == "mist") && (@cur_temp > 65 && @cur_temp <= 80))   %>
+          <% elsif (((@cur_desc >= 200 && @cur_desc <= 622) || (@cur_desc >= 900 && @cur_desc <= 902)) && (@cur_temp > 65 && @cur_temp <= 80))   %>
           <div class="carousel warm2">
             <span class="carousel-item" href="#one!"> <%= image_tag("rainy_chilly_w6.jpg") %> </span>
             <span class="carousel-item" href="#two!"> <%= image_tag("rainy_chilly_w8.jpg") %> </span>
             <span class="carousel-item" href="#three!"> <%= image_tag("rainy_chilly_w10.jpeg") %> </span>
           </div>
-
-
-          <% elsif ((@cur_temp > 80) && (@cur_desc == "clear sky" || @cur_desc == "broken clouds" || @cur_desc == "scattered clouds" || @cur_desc == "few clouds")) %>
+          <% elsif (((@cur_desc > 700 && @cur_desc <= 804) || (@cur_desc > 902)) && (@cur_temp > 65 && @cur_temp <= 80)) %>
           <div class="carousel hot">
             <span class="carousel-item" href="#one!"> <%= image_tag("w_hot_1.jpg")  %> </span>
             <span class="carousel-item" href="#two!"> <%= image_tag("w_hot_2.jpg") %>  </span>
             <span class="carousel-item" href="#three!"> <%= image_tag("w_hot_3.jpg") %> </span>
           </div>
-          <% elsif ((@cur_temp > 80) && (@cur_desc == "rain" || @cur_desc == "shower rain" || @cur_desc == "thunderstorm" || @cur_desc== "snow" || @cur_desc == "mist")) %>
+          <% elsif (((@cur_desc >= 200 && @cur_desc <= 622) || (@cur_desc >= 900 && @cur_desc <= 902)) && (@cur_temp > 65 && @cur_temp <= 80))   %>
           <div class="carousel hot2">
             <span class="carousel-item" href="#one!"> <%= image_tag("rainy_hot_w.jpg")  %> </span>
             <span class="carousel-item" href="#two!"> <%= image_tag("rainy_hot_w2.jpg") %>  </span>
