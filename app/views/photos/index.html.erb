@@ -22,7 +22,7 @@
 </div> -->
 
 <!-- Background image-->
-
+<div class="back" style="display:block">
 <% if ((@cur_desc >= 200 && @cur_desc <= 622) || (@cur_desc >= 901)) %>
 <div class="rainy">
   <% elsif @cur_desc = 800 %>
@@ -33,9 +33,8 @@
       <div class="sunny">
       <% end %>
 
-
       <!-- Logo Area -->
-      <div class="top_half">
+      <div class="top_half" style="display:block">
 
         <div class="logo">
           <span href="#logo"> <img class="wwlogo" src="/assets/ww_logo.png" alt=""> </span>
@@ -45,7 +44,7 @@
 <div class="location" data-popup-open="popup-1" href="#" >
           <p><%= image_tag("pin.png", size: "80x80") %> <%= @city2  %></p>
 </div>
-        <div class="popup" data-popup="popup-1" style="display:none">
+        <div class="popup" data-popup="popup-1" style="display:none" id="popups">
         <div class="popup-inner">
           <h3>Enter Zipcode</h3>
         <p> </p>
@@ -174,6 +173,7 @@
           </div>
         </div>
       </div>
+</div>
 </div>
 </div>
 
