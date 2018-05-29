@@ -1,24 +1,2 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Final for a group project.
+This app grabs the current temperature and weather conditions in Miami, and gives users a gallery of images that contain outfits appropriate for the weather. We have male and female galleries, which are based on the temperature and the level of precipitation.
